@@ -24,29 +24,27 @@ function setup() {
      divisions.push(new Divisions(k, 650, 10, 300));
   }
 
-   //FIRST ROW OF PLINKO
-    for (var j = 75; j <=width; j=j+50) 
-    {
-    
+  //FIRST ROW OF PLINKO
+  for (var j = 75; j <=width; j=j+50) 
+  {
        plinkos.push(new Plinko(j,75));
-    }
+  }
 
-    //CREATE SECOND ROW OF PLINKO- I MODIEFIED var j = 50 AND Plinko(j,175) SO THAT IT APPEARS IN NEXT ROW 
-    for (var j = 50; j <=width; j=j+50) 
-    {
-    
+  //CREATE SECOND ROW OF PLINKO- I MODIEFIED var j = 50 AND Plinko(j,175) SO THAT IT APPEARS IN NEXT ROW 
+  for (var j = 50; j <=width; j=j+50) 
+  {
        plinkos.push(new Plinko(j,175));
-    }
+  }
 
-    //CREATE THIRD ROW OF PLINKO
+  //CREATE THIRD ROW OF PLINKO
     
 
 
-    //CREATE SECOND ROW OF PLINKO
+    //CREATE FORTH ROW OF PLINKO
 
     
-    //for creating the particles
     
+   
 
 }
  
@@ -67,9 +65,10 @@ function draw() {
     plinkos[i].display();     
   }
 
-
+  //for creating the particles
+ 
   
   //for displaying the particles
- 
+  
    
 }
